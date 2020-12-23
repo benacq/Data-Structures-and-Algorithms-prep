@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Last_digit_of_fibonacci_numbers_again.dir/main.cpp.o  -o Last_digit_of_fibonacci_numbers_again 

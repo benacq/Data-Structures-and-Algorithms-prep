@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Last_digit_of_the_sum_of_squares_of_fibonacci_numbers.dir/main.cpp.o  -o Last_digit_of_the_sum_of_squares_of_fibonacci_numbers 

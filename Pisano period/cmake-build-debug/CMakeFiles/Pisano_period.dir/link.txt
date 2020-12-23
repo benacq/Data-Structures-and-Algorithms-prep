@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Pisano_period.dir/main.cpp.o  -o Pisano_period 

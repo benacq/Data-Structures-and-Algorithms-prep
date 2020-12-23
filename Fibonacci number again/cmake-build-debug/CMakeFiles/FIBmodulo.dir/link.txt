@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/FIBmodulo.dir/main.cpp.o  -o FIBmodulo 

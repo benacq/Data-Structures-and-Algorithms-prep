@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Maximum_pairwise_product.dir/main.cpp.o  -o Maximum_pairwise_product 

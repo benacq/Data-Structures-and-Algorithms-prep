@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Last_digit_of_a_large_fibonacci_number.dir/main.cpp.o  -o Last_digit_of_a_large_fibonacci_number 

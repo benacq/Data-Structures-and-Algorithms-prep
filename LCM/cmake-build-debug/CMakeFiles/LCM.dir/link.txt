@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/LCM.dir/main.cpp.o  -o LCM 
