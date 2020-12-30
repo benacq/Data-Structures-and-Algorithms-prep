@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/benacq/Desktop/dev/learn/DSA/cpp/week 3 greedy algorithms/Maximum advertisement revenue/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+

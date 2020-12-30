@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Maximum_advertisement_revenue.dir/main.cpp.o  -o Maximum_advertisement_revenue 

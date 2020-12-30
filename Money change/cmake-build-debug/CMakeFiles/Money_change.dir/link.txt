@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Money_change.dir/main.cpp.o  -o Money_change 

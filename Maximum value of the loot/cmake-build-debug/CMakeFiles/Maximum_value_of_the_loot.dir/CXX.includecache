@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/benacq/Desktop/dev/learn/DSA/cpp/week 3 greedy algorithms/Maximum value of the loot/main.cpp
+iostream
+-
+vector
+-
+algorithm
+-
+iomanip
+-
+

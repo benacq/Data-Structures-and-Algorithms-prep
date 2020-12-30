@@ -1,0 +1,3 @@
+/home/benacq/Desktop/dev/learn/DSA/cpp/week 3 greedy algorithms/Maximum value of the loot/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/benacq/Desktop/dev/learn/DSA/cpp/week 3 greedy algorithms/Maximum value of the loot/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/benacq/Desktop/dev/learn/DSA/cpp/week 3 greedy algorithms/Maximum value of the loot/cmake-build-debug/CMakeFiles/Maximum_value_of_the_loot.dir

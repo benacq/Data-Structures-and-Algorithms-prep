@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/benacq/Desktop/dev/learn/DSA/cpp/week 3 greedy algorithms/Maximum Salary/main.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+string
+-
+

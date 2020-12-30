@@ -1,0 +1,3 @@
+/home/benacq/Desktop/dev/learn/DSA/cpp/week 3 greedy algorithms/Maximum number of prizes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/benacq/Desktop/dev/learn/DSA/cpp/week 3 greedy algorithms/Maximum number of prizes/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/benacq/Desktop/dev/learn/DSA/cpp/week 3 greedy algorithms/Maximum number of prizes/cmake-build-debug/CMakeFiles/Maximum_number_of_prizes.dir

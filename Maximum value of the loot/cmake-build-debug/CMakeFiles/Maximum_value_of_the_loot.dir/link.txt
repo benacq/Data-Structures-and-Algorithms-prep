@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Maximum_value_of_the_loot.dir/main.cpp.o  -o Maximum_value_of_the_loot 
