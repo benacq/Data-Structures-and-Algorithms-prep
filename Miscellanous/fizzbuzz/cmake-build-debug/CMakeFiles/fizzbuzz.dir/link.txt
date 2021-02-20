@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/fizzbuzz.dir/main.cpp.o  -o fizzbuzz 

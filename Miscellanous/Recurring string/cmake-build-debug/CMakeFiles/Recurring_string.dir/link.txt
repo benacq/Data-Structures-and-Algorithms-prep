@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Recurring_string.dir/main.cpp.o  -o Recurring_string 
