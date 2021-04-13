@@ -85,32 +85,15 @@ public:
             return;
         }
         /*
-         * If the node is not the only node in the list, that means we have to loop and search for x, then we set its pointer to our new node
-         * In order not to lose the reference to our head pointer, we create a temporary variable to use in our loop
-         * */
-        Node *temp = head;
-        while (temp->next != x) {
-            /*
-            * we are looking for a node that has its pointer pointing to x(note that temp marks the beginning of the list ie. head)
-            * so starting from the beginning we loop and check each node if it has a pointer matching x
-            * at each iteration we reset temp to the next node(until we find what we are looking for)
-            * */
-            temp = temp->next;
-        }
-
-        /*
-        * so at this point temp should now have found x so it will contain the pointer to x
         * x initially was pointing to some other node, since we want to insert a new node, our new node should point to what x was pointing to(so that we don't break the link)
         * xpointer variable stores the current next node after x
         * after we store it, we can now give that position to our new node.
         * after inserting our new node, we then point our new node to that pointer
         * */
         Node *xpointer = x->next; // store x current next pointer to keep the reference
-        temp->next = newNode; // replace x pointer with our new node
+        x->next = newNode;
         newNode->next = xpointer; // point our new node to x's initial nex pointer(ie xpointer)
     }
-
-
 
 
     //DELETE AT GIVEN POSITION
