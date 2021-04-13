@@ -6,7 +6,6 @@ struct Node {
     int data;
     Node *next;
 };
-
 struct Node *head;
 
 
@@ -83,6 +82,8 @@ public:
             // * so we now point the pointer of the head to the new node we created and return.
             head->next = newNode;
             return;
+        } else if (x->next == nullptr) {
+            x->next = newNode;
         }
         /*
         * x initially was pointing to some other node, since we want to insert a new node, our new node should point to what x was pointing to(so that we don't break the link)
