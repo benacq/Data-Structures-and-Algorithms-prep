@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Stack_string_reverse.dir/main.cpp.o  -o Stack_string_reverse 

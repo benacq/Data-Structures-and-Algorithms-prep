@@ -59,19 +59,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/137/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/145/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/137/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci
+CMAKE_SOURCE_DIR = /home/benacq/Desktop/dev/learn/DSA/Data-Structures-and-Algorithms-prep/fibonacci
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci/cmake-build-debug
+CMAKE_BINARY_DIR = /home/benacq/Desktop/dev/learn/DSA/Data-Structures-and-Algorithms-prep/fibonacci/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci/cmake-build-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/137/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/145/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/137/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/145/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci/cmake-build-debug/CMakeFiles /home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benacq/Desktop/dev/learn/DSA/Data-Structures-and-Algorithms-prep/fibonacci/cmake-build-debug/CMakeFiles /home/benacq/Desktop/dev/learn/DSA/Data-Structures-and-Algorithms-prep/fibonacci/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benacq/Desktop/dev/learn/DSA/Data-Structures-and-Algorithms-prep/fibonacci/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

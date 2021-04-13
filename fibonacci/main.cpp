@@ -24,6 +24,7 @@ int fibRecursive(int n) {
  * @param n
  * @returns int fib(n)
  */
+
 uint64_t fibEfficient(int n) {
     uint64_t fibCached[n];
     fibCached[0] = 0;
@@ -34,6 +35,18 @@ uint64_t fibEfficient(int n) {
     }
     return fibCached[n];
 }
+
+//void fib(int n) {
+//    int first = 0;
+//    int second = 1;
+//    int next = first + second;
+//
+//
+//    while (second <= n) {
+//        next = first + second;
+//    }
+//    cout << first << " " << second << " " << next << " ";
+//}
 
 long long fibMoreEfficient(long long n) {
     const long long MAX = 99999;
@@ -78,8 +91,8 @@ void stressTesting() {
 int main() {
 //    stressTesting();
     long long n;
-    cin>>n;
-    std::cout << fibMoreEfficient(n) << std::endl;
+    cin >> n;
+//    std::cout << fibMoreEfficient(n) << std::endl;
     return 0;
 }
 

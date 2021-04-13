@@ -1,0 +1,1 @@
+/usr/bin/cc  -v CMakeFiles/cmTC_dbe30.dir/CMakeCCompilerABI.c.o -o cmTC_dbe30 

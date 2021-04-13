@@ -1,4 +1,4 @@
-# Install script for directory: /home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci
+# Install script for directory: /home/benacq/Desktop/dev/learn/DSA/Data-Structures-and-Algorithms-prep/fibonacci
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/benacq/Desktop/dev/learn/DSA/Data-Structures-and-Algorithms-prep/fibonacci/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

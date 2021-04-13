@@ -55,19 +55,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/137/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/145/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/137/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci
+CMAKE_SOURCE_DIR = /home/benacq/Desktop/dev/learn/DSA/Data-Structures-and-Algorithms-prep/fibonacci
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci/cmake-build-debug
+CMAKE_BINARY_DIR = /home/benacq/Desktop/dev/learn/DSA/Data-Structures-and-Algorithms-prep/fibonacci/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ clean: CMakeFiles/fib.dir/clean
 CMakeFiles/fib.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fib.dir/build.make CMakeFiles/fib.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fib.dir/build.make CMakeFiles/fib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target fib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/benacq/Desktop/dev/learn/DSA/Data-Structures-and-Algorithms-prep/fibonacci/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target fib"
 .PHONY : CMakeFiles/fib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/fib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benacq/Desktop/dev/learn/DSA/Data-Structures-and-Algorithms-prep/fibonacci/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/benacq/Desktop/dev/learn/DSA/Data-Structures-and-Algorithms-prep/fibonacci/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/fib.dir/rule
 
 # Convenience name for target.

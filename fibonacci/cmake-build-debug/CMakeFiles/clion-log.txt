@@ -1,4 +1,4 @@
-/snap/clion/137/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci
+/snap/clion/145/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/benacq/Desktop/dev/learn/DSA/Data-Structures-and-Algorithms-prep/fibonacci
 -- The C compiler identification is GNU 9.3.0
 -- The CXX compiler identification is GNU 9.3.0
 -- Check for working C compiler: /usr/bin/cc
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci/cmake-build-debug
+-- Build files have been written to: /home/benacq/Desktop/dev/learn/DSA/Data-Structures-and-Algorithms-prep/fibonacci/cmake-build-debug

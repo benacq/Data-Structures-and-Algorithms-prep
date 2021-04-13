@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci/main.cpp" "/home/benacq/Desktop/dev/learn/DSA/cpp/fibonacci/cmake-build-debug/CMakeFiles/fib.dir/main.cpp.o"
+  "/home/benacq/Desktop/dev/learn/DSA/Data-Structures-and-Algorithms-prep/fibonacci/main.cpp" "/home/benacq/Desktop/dev/learn/DSA/Data-Structures-and-Algorithms-prep/fibonacci/cmake-build-debug/CMakeFiles/fib.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
