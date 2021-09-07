@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Quick_sort__Divide_and_Conquer.dir/main.cpp.o -o Quick_sort__Divide_and_Conquer 
