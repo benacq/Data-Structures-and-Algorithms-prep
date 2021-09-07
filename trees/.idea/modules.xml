@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/binary_trees.iml" filepath="$PROJECT_DIR$/.idea/binary_trees.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/trees.iml" filepath="$PROJECT_DIR$/.idea/trees.iml" />
     </modules>
   </component>
