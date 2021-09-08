@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/GLbasics.dir/main.cpp.o -o GLbasics 
